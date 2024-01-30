@@ -7,12 +7,7 @@ import { HomeComponent } from './home/home.component';
   standalone: true,
   imports: [RouterOutlet, HomeComponent],
   template: `
-    <section>
-      <form>
-        <input type="text" placeholder="Filter by City">
-        <button class="primary" type="button">Search</button>
-      </form>
-    </section>
+      <app-home></app-home>
   `,
   styleUrl: './app.component.scss'
 })
